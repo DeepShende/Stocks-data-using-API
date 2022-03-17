@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 2317815154035383719}
   - component: {fileID: 8808776801995308028}
   - component: {fileID: 8360123064716513713}
+  - component: {fileID: 7261940221878770478}
   - component: {fileID: 5237176403499837888}
   m_Layer: 0
   m_Name: GameObject
@@ -195,6 +196,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8ed0b11850145c4995dd76170bb2500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7261940221878770478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718120276113403704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a419b5b735e694a9cb5323137374e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokeRawImage: {fileID: 0}
+  pokeNameText: {fileID: 0}
+  pokeNumText: {fileID: 0}
+  pokeTypeTextArray:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &5237176403499837888
 MonoBehaviour:
   m_ObjectHideFlags: 0
