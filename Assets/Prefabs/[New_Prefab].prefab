@@ -32,8 +32,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5, y: -5, z: -5}
   m_LocalScale: {x: 2, y: 2, z: 2}
-  m_LocalPosition: {x: , y: -5, z: -5}
-  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 8433617476484903944}
   m_RootOrder: 0
@@ -313,6 +311,7 @@ GameObject:
   - component: {fileID: 818480314095534865}
   - component: {fileID: 7014897782672806455}
   - component: {fileID: 6179085943152573758}
+  - component: {fileID: 3344823946836485972}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -473,6 +472,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8ed043c6593d4fea8d9c4b4724a7ff6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3344823946836485972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7496925138694796689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f970ea55f9f84bf79b05dab180b8c125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BenchmarkType: 0
+  TMProFont: {fileID: 0}
+  TextMeshFont: {fileID: 0}
 --- !u!1 &7706527819927221897
 GameObject:
   m_ObjectHideFlags: 0
